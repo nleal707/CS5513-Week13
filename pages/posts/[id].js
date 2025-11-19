@@ -60,7 +60,7 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
             </Col>
             <Col class="col-6">
-            <Button className={utilStyles.categoryBtn}>{postData.category}</Button>
+            <Button className={utilStyles.categoryBtn}>{postData.username}</Button>
             </Col>
           </Row>
         </Container>
